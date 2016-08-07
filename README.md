@@ -8,3 +8,8 @@
   * Define individual ORM metohds like #save, #find, #destroy
 
 * Instead, our dynamic ORM class will use metaprogramming to take info about a specific database table and use that info in methods that will write flexible, dynamic (i.e. not specific to a class or table name) methods to achieve the above for us. 
+
+We'll learn how to:
+* dynamically define attr_accessor and assign values in a dynamic initialize method
+* build a dynamic #save, #find method
+* BONUS: build a dynamic #all and #find method that returns Ruby objects instead of database records in messy arrays
