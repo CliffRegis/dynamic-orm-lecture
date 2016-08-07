@@ -1,3 +1,5 @@
 require_relative "../config/environment.rb"
 
-binding.pry
+tweet = Tweet.new(message: "don't you just love metaprogramming mondays? lol")
+user = User.new(username: "sophieD", email: "sophie@email.com")
+
